@@ -1,0 +1,7 @@
+apiVersion: wildfly.org/v1alpha1
+kind: WildFlyServer
+metadata:
+  name: javaee-helloworld-application
+spec:
+  applicationImage: javaee-helloworld:latest
+  replicas: 3
